@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container-fluid">
+<!--    md == medium devices and sm == small device-->
+    <div class="row col-md-6 mx-auto">
+<table  class="table table-dark table-hover">
+    <tr>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Email</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Rahim</td>
+        <td>Male</td>
+        <td>rahim@gmail.com</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Joyce</td>
+        <td>Female</td>
+        <td>joyce8@gmail</td>
+        <td>19</td>
+    </tr>
+    <tr>
+        <td>fisher</td>
+        <td>Male</td>
+        <td>fisher@gmail.com</td>
+        <td>18</td>
+    </tr>
+</table>
+    </div>
+    <div class="row">
+<div class=" col-md-6 mx-auto">
+
+    <h3 class="text-center">registration</h3>
+    <form method="POST" action="registration.php">
+        <div class="my-3">
+            <label for="fname">First Name</label>
+            <input type="text" class="form-control rounded-0" id="fname" name="firstname" placeholder="First Name">
+        </div>
+        <div class="my-3">
+            <label for="email">Email</label>
+            <input type="email" class="form-control rounded-0" id="email" name="email" placeholder="Email">
+        </div>
+        <div class="my-3">
+            <label for="dob">DOB</label>
+            <input type="date" class="form-control rounded-0" id="dob" name="dob" placeholder="Date of Birth">
+        </div>
+        <div class="my-3">
+            <input type="radio" id="gender" name="gender" value="Male">
+             <label for="gender">male</label> <br>
+            <input type="radio" id="gender" name="gender" value="Female">
+            <label for="gender">female</label>
+        </div>
+        <div class="my-3">
+        <button class="button">Submit</button>
+            </div>
+        </div>
+    </form>
+</div>
+</div>
+
+</body>
+</html>
