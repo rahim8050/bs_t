@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.features{
+    background: url(images/veg4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /*paralax effect*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+label{
+    align-items: center;
+    display: block;
+
+}
+input{
+    align-items: center;
+    display: block; 
+}
+body{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.features div{
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background: rgba(0,0,0,0.75);
+    color: antiquewhite;
+    padding: 18px 12px;
+    border-radius: 15px;
+}
